@@ -8,8 +8,8 @@ const querystring = require('querystring');
 const KMeans = require('kmeans-js');
 
 // Spotify API credentials - these would come from environment variables in production
-const SPOTIFY_CLIENT_ID = '45f9eb3e0ea045bfa30faeba6c3533df';
-const SPOTIFY_CLIENT_SECRET = '0e80d7e1963e435fa49af94645748b8c';
+const SPOTIFY_CLIENT_ID = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+const SPOTIFY_CLIENT_SECRET = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const REDIRECT_URI = 'http://localhost:3000/callback';
 const SCOPES = 'user-read-private user-read-email user-top-read user-read-recently-played playlist-modify-public';
 const STATE_KEY = 'spotify_auth_state';
